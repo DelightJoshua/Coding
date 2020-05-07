@@ -1,2 +1,2 @@
 # CODING
-for uploading coding question &amp; solution
+coding questions &amp; solutions
