@@ -1,2 +1,2 @@
 # CODING
-## [LeetCode](./LeetCode)
+### 1. [LeetCode](./LeetCode)
