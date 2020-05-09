@@ -1,2 +1,2 @@
 # BASIC DATA STRUCTURE
-### [Linked List](./Linked%20List)
+### [Linked List](./Linked%20List.cpp)
