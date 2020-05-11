@@ -1,32 +1,42 @@
-# Delete Node in Linked List
-Write a function to delete a node (except the tail) in a singly linked list, given only access to that node.
-Given linked list -- head = [4,5,1,9], which looks like following:
-
-
-
-
+Given two numbers, hour and minutes. Return the smaller angle (in degrees) formed between the hour and the minute hand.
 
 Example 1:
 
 ```
-Input: head = [4,5,1,9], node = 5
-Output: [4,1,9]
-Explanation: You are given the second node with value 5, the linked list should become 4 -> 1 -> 9 after calling your
-function.
+Input: hour = 12, minutes = 30
+Output: 165
 ```
 
 Example 2:
 
 ```
-Input: head = [4,5,1,9], node = 1
-Output: [4,5,9]
-Explanation: You are given the third node with value 1, the linked list should become 4 -> 5 -> 9 after calling your
-function.
+Input: hour = 3, minutes = 30
+Output: 75
 ```
 
-Note:
+Example 3:
 
-      * The linked list will have at least two elements.
-      * All of the nodes' values will be unique.
-      * The given node will not be the tail and it will always be a valid node of the linked list.
-      * Do not return anything from your function.
+```
+Input: hour = 3, minutes = 15
+Output: 7.5
+```
+
+Example 4:
+
+```
+Input: hour = 4, minutes = 50
+Output: 155
+```
+
+Example 5:
+
+```
+Input: hour = 12, minutes = 0
+Output: 0
+``` 
+
+Constraints:
+
+* 1 <= hour <= 12
+* 0 <= minutes <= 59
+* Answers within 10^-5 of the actual value will be accepted as correct.
