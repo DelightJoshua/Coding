@@ -1,45 +1,55 @@
 int romanToInt(string s) {
     int i = 0, num = 0;
     while(s[i] != '\0') {
-        if(s[i] == 'M'){
+        if(s[i] == 'M') {
            num = num + 1000;
-        }else if(s[i] == 'C'){
-            if(s[i + 1] == 'M'){
+        }
+        else if(s[i] == 'C') {
+            if(s[i + 1] == 'M') {
                 num = num + 900;
                 i++;
-            }else if(s[i+1] == 'D'){
+            }
+            else if(s[i+1] == 'D') {
                 num = num + 400;
                 i++;
-            }else{
+            }
+            else{
                 num = num + 100;
             }
-        }else if(s[i] == 'D'){
+        }
+        else if(s[i] == 'D') {
             num = num + 500;
-        }else if(s[i] == 'X'){
-            if(s[i + 1] == 'C'){
+        }
+        else if(s[i] == 'X'){
+            if(s[i + 1] == 'C') {
                 num = num + 90;
                 i++;
             }
-            else if(s[i + 1] == 'L'){
+            else if(s[i + 1] == 'L') {
                 num = num + 40;
                 i++;
             }
             else{
                 num = num + 10;
             }
-        }else if(s[i] == 'L'){
+        }
+        else if(s[i] == 'L') {
             num = num + 50;
-        }else if(s[i] == 'I'){
-            if(s[i + 1] == 'X'){
+        }
+        else if(s[i] == 'I') {
+            if(s[i + 1] == 'X') {
                 num = num + 9;
                 i++;
-            }else if(s[i + 1] == 'V'){
+            }
+            else if(s[i + 1] == 'V') {
                 num = num + 4;
                 i++;
-            }else{
+            }
+            else {
                 num = num + 1;
             }
-        }else{
+        }
+        else {
             num = num + 5;
         }
         i++;
